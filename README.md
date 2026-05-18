@@ -1,16 +1,59 @@
-# React + Vite
+# NullSense
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NullSense is a GenZ-style AI-powered compiler error translator that converts confusing programming errors into simplified human-readable explanations.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- GenZ error translations
+- Actual technical meaning
+- Fix suggestions
+- Modern responsive UI
+- Gradient glassmorphism design
+- Built using React + Vite
 
-## React Compiler
+## Example
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Compiler Error
 
-## Expanding the ESLint configuration
+```txt
+NullPointerException
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### NullSense Translation
+
+> Bro tried accessing an object that literally does not exist.
+
+### Actual Meaning
+
+> You are trying to use an object that contains a null value.
+
+### Fix Suggestion
+
+> Initialize the object before accessing its methods or properties.
+
+---
+
+## Tech Stack
+
+- React
+- Vite
+- CSS3
+- Lucide React
+
+---
+
+## Installation
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## Author
+
+Rohith V K
+
+GitHub:
+https://github.com/RohiVK
